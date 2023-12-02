@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguro Confiable</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/main.js" defer></script>
+    <script src="./js/seguro.js"></script>
+</head>
+<body>
+    
+    <div class="tarjetaSeguro">
+        <div class="imagen">
+
+            <h1>Cotiza tu seguro de forma rapida</h1>
+
+        </div>
+        
+        <div class="centrar">
+            <div class="separar">
+                <label for="anio" class="etiq">Año</label>
+                <input type="number" placeholder="Ingresa el Año" id="anio">
+            
+            </div>
+            
+            <div class="vehiculo separar">
+                <label for="marca" class="etiq marca">Marca</label>
+                <select id="marca">
+                    <option disabled selected>Seleccioná</option>
+                </select>
+    
+            </div>
+    
+            <div class="separar">
+                <label for="gnc" class="etiq">Tiene GNC?</label>
+                <label for="opc1" >Si</label>
+                <input type="radio" name="gnc" value="Si" id="opc1">
+                <label for="opc2" >No</label>
+                <input type="radio" name="gnc" value="No "id="opc2" checked>
+    
+            </div>
+
+            <button class="cotizar">Calcular</button>
+        </div>
+        
+
+       
+
+    </div>
+
+</body>
+</html>

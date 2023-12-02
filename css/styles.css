@@ -1,0 +1,181 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.mensaje{
+    
+    opacity: 0;
+}
+
+.mensajeVisible{
+    opacity: 1;
+    font-weight: bold;
+    background-color: rgb(45, 241, 45);
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.peso_sin{
+    font-size: 20px;
+    color: red;
+}
+.datosAuto{
+    width: 100%;
+    text-align: center;
+    background-color: #6fc5ff;
+}
+.boton_coti{
+    
+    margin: 0;
+}
+.mes{
+    margin-left: 10px;
+}
+
+
+.peso{
+    font-size: 30px;
+    color: #2ba8fb;
+}
+
+.centrar_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#cuota{
+    font-size: 30px;
+    color: #2ba8fb;
+}
+
+h3{
+    text-align: center;
+}
+
+#cuotaSinDescuento{
+    font-size: 25px;
+    text-decoration: line-through;
+    color: red;
+    padding: 0;
+}
+
+.imagen{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/banner.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+p{
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+}
+.okey{
+    color: rgb(45, 241, 45);
+    font-size: 25px;
+}
+
+.container{
+    border: 3px solid #2ba8fb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+}
+
+h1{
+    color: white;
+    font-size: 36px;
+}
+
+.tarjetaSeguro{
+    border: 1px solid black;
+    width: 600px;
+    height: 500px;
+    margin-top: 100px;
+    
+}
+
+.etiq{
+    padding-top: 10px;
+    color: #2ba8fb;
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.separar{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+input{
+    height: 20px;
+}
+
+option{
+    height: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin-top: 50px;
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+.centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marca{
+    margin-right: 40px;
+    padding: 0;
+}
+
+#marca{
+    padding: 10px 10px;
+}
